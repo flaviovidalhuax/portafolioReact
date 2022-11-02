@@ -1,0 +1,34 @@
+.Portafolio{
+    width: 100%;
+    height: fit-content;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
+}
+.Portafolio_img-e-comer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 4px 3px gray;
+    overflow: hidden;
+}
+.Portafolio_img-e-comer:hover{
+    transform: scale(1.3);
+    transition: 1500ms;
+}
+.Portafolio_containerallimg{
+    padding: 1rem;
+    width: 100vw;
+   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}

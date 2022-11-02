@@ -1,0 +1,34 @@
+.Expirience{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.Expirience_h1{
+  margin: auto;
+
+}
+.Expirience_article{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    padding: .7rem; 
+
+    
+   
+}
+.Expirience_container1,
+.Expirience_container2,
+.Expirience_container3
+{
+    background-color: #96BAFF;
+    width: fit-content;
+    max-width: 30rem;
+    height: fit-content;
+    padding: .5rem;
+    border-radius: .5rem;
+    box-shadow: 2px 2px 8px 5px gray;
+}
