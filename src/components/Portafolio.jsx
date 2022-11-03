@@ -3,7 +3,7 @@ import portaf from "../assets/documents/portafolio/portafolio.png";
 import pokeapi from "../assets/documents/portafolio/pokeAapi.png";
 import rickAndMorthy from "../assets/documents/portafolio/RickandMorthy.png";
 import weather from "../assets/documents/portafolio/Weather.png";
-import './style/Portafolio.css'
+import './style/portafolio.css'
 
 const Portafolio = () => {
   return (

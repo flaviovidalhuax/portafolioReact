@@ -1,6 +1,6 @@
 import React from 'react'
 import resumenfla from '../assets/documents/resume.pdf'
-import fotoresume from "../assets/documents/photomobile.png";
+import fotoresume from "../assets/documents/photomobile.png";gitgit 
 import './style/aboutMe.css'
 const AboutMe = () => {
   return (
