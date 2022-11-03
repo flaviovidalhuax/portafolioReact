@@ -1,6 +1,6 @@
 import React from 'react'
 import resumenfla from '../assets/documents/resume.pdf'
-import fotoresume from "../assets/documents/photomobile.png";gitgit 
+import fotoresume from "../assets/documents/photomobile.png";
 import './style/aboutMe.css'
 const AboutMe = () => {
   return (
@@ -11,7 +11,7 @@ const AboutMe = () => {
           <div className='AbouteMe_main-div-name'>
               <div>
                 <h4>Flavio Hernandez jr</h4>
-                <h4>Ing. Electrico Electronico</h4>
+                <h4>Ing. Electrico Electronico</h4> 
                 <h4>Desarrolador Web</h4>
                 <h4>Tel: 5521159387</h4>
                 <h4>flaviovidalhuax@gmail.com</h4>
