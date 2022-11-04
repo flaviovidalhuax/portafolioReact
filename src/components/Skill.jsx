@@ -22,7 +22,7 @@ const Skill = () => {
                   </div>
                   <div className='skill_container-item'>
                       <i class="skill_item fa-brands fa-bootstrap"></i>
-                      <span className='skill_span'>bustrap</span>
+                      <span className='skill_span'>bootstrap</span>
                   </div>
                   <div className='skill_container-item'>
                       <i class="skill_item fa-brands fa-react"></i>

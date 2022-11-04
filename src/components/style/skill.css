@@ -37,8 +37,14 @@ justify-content: center;
 .skill_item{
     transform: scale(4);
     margin:1rem 2rem;
+    animation: items 7s infinite ; 
     
-
+}
+@keyframes items{
+    0%{transform: scale(3);}
+    25%{transform: scale(2);}
+    50%{transform: scale(3);}
+    100%{transform: scale(2);}
 }
 .skill_span{
 color: blue;

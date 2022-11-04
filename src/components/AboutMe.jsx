@@ -12,9 +12,8 @@ const AboutMe = () => {
               <div>
                 <h4>Flavio Hernandez jr</h4>
                 <h4>Ing. Electrico Electronico</h4> 
-                <h4>Desarrolador Web</h4>
-                <h4>Tel: 5521159387</h4>
-                <h4>flaviovidalhuax@gmail.com</h4>
+                <h4>Desarrolador Front-end</h4>
+        
               </div>
           </div>
          <article className='AbouteMe_article'>
@@ -38,10 +37,16 @@ const AboutMe = () => {
                     </a>
                 </div>
                 <div>
-                    <a  href={resumenfla} download={resumenfla}>
-                    <i class='bx bxs-spreadsheet'></i>
-                       <div className='AbouteMe_main-title-i'>Resume</div>
-                    </a>
+                  <a className='AbouteMe_main-a' href="https://www.linkedin.com/in/flavio-hernandez-jr-a0476b94/overlay/1635480020705/single-media-viewer/">
+                      <i class="AbouteMe_main-i fa-solid fa-certificate"></i>
+                      <div className='AbouteMe_main-title-i'>Titulo</div>
+                  </a>
+                </div>
+                <div>
+                    <a  className='AbouteMe_main-a' href={resumenfla} download={resumenfla}>
+                      <i class="AbouteMe_main-i fa-solid fa-download"></i>
+                      <div className='AbouteMe_main-title-i'>Resume</div>
+                    </a>      
                 </div>
                 <div>
                     <a className='AbouteMe_main-a' href="https://certificates.academlo.com/en/verify/88627046547961">
@@ -55,12 +60,7 @@ const AboutMe = () => {
                         <div className='AbouteMe_main-title-i'>JavaScript</div>
                     </a>
                 </div>
-                <div>
-                  <a className='AbouteMe_main-a' href="https://www.linkedin.com/in/flavio-hernandez-jr-a0476b94/overlay/1635480020705/single-media-viewer/">
-                      <i class="AbouteMe_main-i fa-solid fa-certificate"></i>
-                      <div className='AbouteMe_main-title-i'>Titulo</div>
-                  </a>
-                </div>
+
           </div>
     </div>
   )
