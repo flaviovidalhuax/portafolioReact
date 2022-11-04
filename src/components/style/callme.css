@@ -1,5 +1,12 @@
-.callme{
-    
+.callme_container{ 
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.callme{  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,8 +14,8 @@
 }
 .callme_contian{
     width: 300px;
-    height: 250px;
-    border: 2px solid blue;
+    height: fit-content;
+    border: 3px solid blue;
     background-color: #4CACBC;
 
     display: flex;
@@ -23,14 +30,15 @@
     text-transform: capitalize;
 }
 .callme_btn{
-    background-color: red;
+    background-color: gainsboro;
     padding: .7rem;
     border-radius: .5rem;
+    margin: .5rem;
   
 }
 .callme_btn:hover{
-    transition: 1s;
-    box-shadow: inset -15px 0 0 0 blue, inset 15px 0 0 0 blue;
+    transition: 3s;
+    box-shadow: inset -30px 0 0 0 blue, inset 30px 0 0 0 blue;
 }
 .callme_input{
     text-align: center;
@@ -38,9 +46,16 @@
     border-radius: .5rem;
     margin: .2rem;
 }
+.callme_textarea{
+    border-radius: .5rem;
+}
 .mesage{
     width: fit-content;
     height: 60px;
-    scroll-behavior:;
-
 }
+.callme_i{ 
+    margin: 1rem;
+    border-radius: 50%;
+    transform: scale(3);
+}
+

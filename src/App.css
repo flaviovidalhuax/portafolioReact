@@ -4,3 +4,13 @@
     height: 100%;
    
 }
+.App_background_true{
+    /* background-color: white; */
+    transition:5s;
+    box-shadow: inset 100vw 0 0 0 white;
+}
+.App_background_false{
+    /* background-color: #A0D995; */
+    transition:5s;
+    box-shadow: inset -100vw 0 0 0 red;
+}

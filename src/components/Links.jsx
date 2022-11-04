@@ -1,19 +1,14 @@
-import React, { useState } from 'react'
 import './style/links.css'
 
 
 const Links = () => {
-  const [onOff, setOnOff] = useState(false)
-const handleONOFF = () =>{
-  setOnOff(!true)
-}
+
  
   return (
     <div className='link'>
       
       
         <h1 className='link_h1'>
-        <button onClick={handleONOFF}>on/off`${onOff}? `</button>
             <ul className='link_ul'>
                 <li className='link_li'><a className='link_a' href="#home">Home</a></li>
                 <li className='link_li'><a className='link_a' href="#home">About me</a></li>

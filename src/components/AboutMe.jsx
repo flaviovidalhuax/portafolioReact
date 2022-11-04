@@ -39,7 +39,7 @@ const AboutMe = () => {
                 <div>
                   <a className='AbouteMe_main-a' href="https://www.linkedin.com/in/flavio-hernandez-jr-a0476b94/overlay/1635480020705/single-media-viewer/">
                       <i class="AbouteMe_main-i fa-solid fa-certificate"></i>
-                      <div className='AbouteMe_main-title-i'>Titulo</div>
+                      <div className='AbouteMe_main-title-i'>certificate/degree </div>
                   </a>
                 </div>
                 <div>

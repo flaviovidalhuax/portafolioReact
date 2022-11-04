@@ -1,5 +1,5 @@
 .AbouteMe_main{
-    background-color: white;
+    
     width: 100%;
     height: fit-content;
 
@@ -9,7 +9,7 @@
     justify-content: flex-start;
 }
 .AbouteMe_main-foto{
-    background-color: white;
+   
     min-width: 150px;
     min-height: 250px;
 }
