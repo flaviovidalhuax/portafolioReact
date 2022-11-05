@@ -25,7 +25,7 @@ function App() {
         <Links />
        <div>
           <button onClick={handleONOFF} >on/off</button>
-          <button>English/Spanish</button>
+          {/* <button>English/Spanish</button> */}
        </div>
         <AboutMe />
         <Experienc />
