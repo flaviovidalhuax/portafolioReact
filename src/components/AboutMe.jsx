@@ -1,12 +1,14 @@
 import React from 'react'
 import resumenfla from '../assets/documents/resume.pdf'
-import fotoresume from "../assets/documents/photomobile.png";
+import fotoresume from "../assets/documents/photomobile.png";//foto de prueva
+import degree from '../assets/documents/degree.png'
 import './style/aboutMe.css'
 const AboutMe = () => {
   return (
     <div className='AbouteMe_main' id='home'>
          <div className='AbouteMe_main-foto'>
-              <img src={fotoresume} alt="foto" />
+              <img src={degree} className='AbouteMe_main-img' alt="foto" />
+              <p className='AbouteMe_main-p'>call me!</p>
           </div>
           <div className='AbouteMe_main-div-name'>
               <div>

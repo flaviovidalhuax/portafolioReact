@@ -23,10 +23,9 @@ function App() {
   return (
     <div className={`App App_background_${onOff}`}>
         <Links />
-       <div>
-          <button onClick={handleONOFF} >on/off</button>
-          {/* <button>English/Spanish</button> */}
-       </div>
+          <div className='App_div'>
+              <button onClick={handleONOFF} className='App_btn' >on/off</button>
+          </div>
         <AboutMe />
         <Experienc />
         <Skill />

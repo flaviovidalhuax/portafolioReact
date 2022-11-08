@@ -8,13 +8,41 @@
     align-items: center;
     justify-content: flex-start;
 }
-.AbouteMe_main-foto{
+.AbouteMe_main-foto{  background-color: yellow;
+    width: 30%;
+    height: 50%;
+    margin: 50px auto;
+    border: 2px solid black;
+    border-radius: .5rem;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+.AbouteMe_main-foto:hover .AbouteMe_main-p{
+    clip-path: circle(150% at top left);
+}
+.AbouteMe_main-img{  background-color: aqua;
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.AbouteMe_main-p{ 
+    background-color: rgba(0, 255, 255, 0.556);
+    grid-column: 1/2;
+    grid-row: 1/2;
+
+    color: #FFF;
+    font-size: 2rem;
    
-    min-width: 150px;
-    min-height: 250px;
+    display: grid;
+    text-align: center;
+    place-items: center;
+    clip-path: circle(0 at top left);
+    transition: clip-path .4s;
 }
 .AbouteMe_main-foto:hover{
-    transform: scale(1.12);
+    clip-path: circle(150% at top left);
 }
 .AbouteMe_main-div-name{
   margin: .5rem;

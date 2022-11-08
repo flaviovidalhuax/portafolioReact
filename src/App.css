@@ -14,3 +14,13 @@
     transition:5s;
     box-shadow: inset -100vw 0 0 0 #354259;
 }
+
+.App_btn{
+    background-color: gray;
+    border: 2px solid white;
+    border-radius: 1rem;
+    overflow: hidden;
+    padding: .3rem;
+    margin-left: .5rem;
+    margin-top: .5rem;
+}
