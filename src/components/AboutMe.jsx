@@ -17,8 +17,8 @@ const AboutMe = () => {
              
           </div>
          <article className='AbouteMe_article'>
-            <h4>
-            Hello, I`m <span className='AbouteMe_main-span'>Front-end Developer</span> on React this me page and show my projects, a like to learn about code.
+            <h4 className='AbouteMe_article-h4'>
+            Hello, I`m <span className='AbouteMe_main-span'>Front-End Developer</span> on React, a like to learn about code.
             </h4>
          </article>
           <div className='AbouteMe_main-div-a'>
