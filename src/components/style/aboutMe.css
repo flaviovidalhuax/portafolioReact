@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: flex-start;
 }
-.AbouteMe_main-foto{  background-color: yellow;
+.AbouteMe_main-foto{  
     width: 30%;
     height: 50%;
     margin: 50px auto;
@@ -22,17 +22,17 @@
 .AbouteMe_main-foto:hover .AbouteMe_main-p{
     clip-path: circle(150% at top left);
 }
-.AbouteMe_main-img{  background-color: aqua;
+.AbouteMe_main-img{  
     width: 100%;
     grid-column: 1/2;
     grid-row: 1/2;
 }
 .AbouteMe_main-p{ 
-    background-color: rgba(0, 255, 255, 0.556);
+    background-color: #def5e55d;
     grid-column: 1/2;
     grid-row: 1/2;
 
-    color: #FFF;
+    color: black;
     font-size: 2rem;
    
     display: grid;
@@ -46,6 +46,12 @@
 }
 .AbouteMe_main-div-name{
   margin: .5rem;
+  text-align: center;
+    
+}
+.AbouteMe_main-span{
+    color: blue;
+    font-size: 1.3rem;
     
 }
 .AbouteMe_main-div-a{

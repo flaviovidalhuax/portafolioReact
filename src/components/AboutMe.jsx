@@ -8,27 +8,18 @@ const AboutMe = () => {
     <div className='AbouteMe_main' id='home'>
          <div className='AbouteMe_main-foto'>
               <img src={degree} className='AbouteMe_main-img' alt="foto" />
-              <p className='AbouteMe_main-p'>call me!</p>
+              <p className='AbouteMe_main-p'><a href="#callme"><span className='AbouteMe_main-span'>Call me!...</span></a></p>
           </div>
           <div className='AbouteMe_main-div-name'>
-              <div>
                 <h4>Flavio Hernandez jr</h4>
-                <h4>Ing. Electrico Electronico</h4> 
-                <h4>Desarrolador Front-end</h4>
-        
-              </div>
+                <h4>electrical and electronic engineering degree</h4> 
+                <h4>Developer Front-end</h4>
+             
           </div>
          <article className='AbouteMe_article'>
-            <p>
-              Estudie la carrera de Ingenieria electrica egresado de UNAM FES ARAGON, 
-              me especialice en eletronica y de ahi nacio el gusto por la programacion.
-
-              Soy originario de Oaxaca de una comunidad pequeña por la region mixteca baja,
-              por usos y costumbres fui a servir por 2 años el cargo de presidente para realizar 
-              muchas actividades de las cuales me hacen sentir orgulloso por contribuir a mi comunidad.
-              Fui a trabajar y estudiar ingles en 2019 con el fin de tratar  de dominar el idioma inglesen la ciudad de 
-              de Chicago, IL, USA. 
-            </p>
+            <h4>
+            Hello, I`m <span className='AbouteMe_main-span'>Front-end Developer</span> on React this me page and show my projects, a like to learn about code.
+            </h4>
          </article>
           <div className='AbouteMe_main-div-a'>
 

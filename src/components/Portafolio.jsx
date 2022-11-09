@@ -8,7 +8,7 @@ import './style/portafolio.css'
 const Portafolio = () => {
   return (
     <div className='Portafolio' id='portafolio'>
-        <h1>Portafolio</h1>
+        <h1>Briefcase</h1>
         <div className='Portafolio_containerallimg'>
             <div className='Portafolio_img-e-comer'>
                 <div className='Portafolio_img-e-comer1'>

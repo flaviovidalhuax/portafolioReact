@@ -8,39 +8,32 @@ const Experienc = () => {
       <article className='Expirience_article'>
           <div className='Expirience_container1'>
               <h3>SUPERVISOR DE OBRA (Outsourcing PEMEX)</h3>
-              <h3> NUGASYS S.A. DE C.V~ 2016 ABRIL – 2017/MARZO</h3>
+              <h3> NUGASYS S.A. DE C.V~ 2016 APRIL – 2017/MARCH</h3>
               <h4>Poza Rica - Veracruz</h4>
-                <p>Supervisión de obra civil y eléctricas para data center para servicio de PEMEX,
-                cumpliendo las normas de seguridad internas de las instalaciones para todo peligro según
-                Norma Oficial Mexicana NOM-001-SEDE-2012, Instalaciones Eléctricas; y normas NRF-
-                022-PEMEX-2008.
-                Coordinación y supervisión de trabajos internos con las empresas Schlumberger, Pemex
-                y de empresas subcontratadas. Gestión de permisos ante CFE, responsable del termino
-                del proyecto en tiempo y forma, según establecido en contrato.</p>
+                <p>Supervision of civil and electrical works for data center for PEMEX service, complying with the internal safety standards of the facilities for all hazards according to Mexican Official Standard NOM-001-SEDE-2012, Electrical Installations; and NRF-standards         022-PEMEX-2008.
+                Coordination and supervision of internal work with the companies Schlumberger, Pemex
+                and subcontracted companies.
+                </p>
+                <p> To do permit security of pemex and CFE , responsible for the term of the project in a timely manner, as established in the contract.</p>
             </div>
           <div className='Expirience_container2'>
                 <h3>FOCAL POINT, LLC 2017-2018</h3>
                 <h4>Chicago IL - USA</h4>
                 <p>
-                  Manufactura de lámparas en equipos lineales.
-                  Tareas realizadas: Manufactura de diferentes tipos y modelos de lámparas tipo led, uso
-                  de líneas para ensamble por medio de bandas para generar lámparas en masa. Uso de
-                  herramientas como taladros, multímetro, fuetes de poder, osciloscopio.
-                  Pruebas de lámparas para ser certificadas para su distribución.
+                Manufacture of differents types of models of lamps, with my team to make high product 300 light per hour.
                 </p>
           </div>
           <div className='Expirience_container3'>
-                <h3>Agente Municipal </h3>
+                <h3>President Municipal </h3>
                 <h4>Oaxaca</h4>
                 <p>
-                Servicio social comunitario en diferentes áreas(2019-2021):
-                • Generar proyectos y gestión de los mismos según secretaria: agua potable(CONAGUA),
-                Iglesia (PROGRAMA NACIONAL DE RECONTRUCCION PNR) gestión y construcción.
-                • instalación y mantenimientos así como su calculo según la dimensión del sistemas
-                fotovoltaico.
-                • Ejecución de obra: salón cultural, remodelación de atrio, remodelación eléctrica e
-                instalación de sistemas solares para bombeo y hogar, instalación de biodigestores,
-                restauración de iglesia(PNR).
+                Organize the community in meetings to carry out public works activities according to their abilities. in 2 years an 18th century colonial type hall was restored
+                </p>
+                <p>
+                Management of the restoration of the 17th century church, the management process lasted 3 years.
+                </p>
+                <p>
+                Seek energy savings by implementing renewable energies, 30 solar panels were installed, thereby reducing electricity payments.
                 </p>
           </div>
       </article>
