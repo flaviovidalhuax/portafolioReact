@@ -24,7 +24,7 @@ function App() {
     <div className={`App App_background_${onOff}`}>
         <Links />
           <div className='App_div'>
-              <button onClick={handleONOFF} className='App_btn' >on/off</button>
+              <button  className='App_btn' ><input onClick={handleONOFF} className='App_input' type="range" min={0} max={1} step={1} /></button>
           </div>
         <AboutMe />
         <Experienc />

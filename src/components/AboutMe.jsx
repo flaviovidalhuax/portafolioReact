@@ -1,5 +1,6 @@
 import React from 'react'
-import resumenfla from '../assets/documents/resume.pdf'
+import resumenEnglish from '../assets/documents/resumeEnglish.pdf'
+import resumenEspañol from '../assets/documents/resumeSpanol.pdf'
 import fotoresume from "../assets/documents/photomobile.png";//foto de prueva
 import degree from '../assets/documents/degree.png'
 import './style/aboutMe.css'
@@ -25,31 +26,37 @@ const AboutMe = () => {
 
                 <div>
                     <a className='AbouteMe_main-a' href="https://www.linkedin.com/in/flavio-hernandez-jr-a0476b94/"> 
-                      <i class="AbouteMe_main-i fa-brands fa-linkedin"></i>
+                      <i style={{color:'#0A66C2'}} class="AbouteMe_main-i fa-brands fa-linkedin"></i>
                       <div className='AbouteMe_main-title-i'>Linkedin</div>
                     </a>
                 </div>
                 <div>
                   <a className='AbouteMe_main-a' href="https://www.linkedin.com/in/flavio-hernandez-jr-a0476b94/overlay/1635480020705/single-media-viewer/">
-                      <i class="AbouteMe_main-i fa-solid fa-certificate"></i>
+                      <i style={{color:'#FFF9B0'}} class="AbouteMe_main-i fa-solid fa-certificate"></i>
                       <div className='AbouteMe_main-title-i'>certificate/degree </div>
                   </a>
                 </div>
                 <div>
-                    <a  className='AbouteMe_main-a' href={resumenfla} download={resumenfla}>
-                      <i class="AbouteMe_main-i fa-solid fa-download"></i>
-                      <div className='AbouteMe_main-title-i'>Resume</div>
+                    <a  className='AbouteMe_main-a' href={resumenEnglish} download={resumenEnglish}>
+                      <i style={{color:'#B9E0FF'}} class="AbouteMe_main-i fa-solid fa-download"></i>
+                      <div className='AbouteMe_main-title-i'>Resume English</div>
+                    </a>      
+                </div>
+                <div>
+                    <a  className='AbouteMe_main-a' href={resumenEspañol} download={resumenEspañol}>
+                      <i style={{color:'#8D9EFF'}} class="AbouteMe_main-i fa-solid fa-download"></i>
+                      <div className='AbouteMe_main-title-i'>Resume Spanish</div>
                     </a>      
                 </div>
                 <div>
                     <a className='AbouteMe_main-a' href="https://certificates.academlo.com/en/verify/88627046547961">
-                        <i class="AbouteMe_main-i fa-brands fa-react"></i>
+                        <i style={{color:'#5ED3F3'}} class="AbouteMe_main-i fa-brands fa-react"></i>
                         <div className='AbouteMe_main-title-i'>React</div>
                     </a>
                 </div>
                 <div>
                     <a className='AbouteMe_main-a' href="https://certificates.academlo.com/en/verify/38591429720231">
-                        <i class="AbouteMe_main-i fa-brands fa-node-js"></i>
+                        <i style={{color:'#EFD830'}} class="AbouteMe_main-i fa-brands fa-node-js"></i>
                         <div className='AbouteMe_main-title-i'>JavaScript</div>
                     </a>
                 </div>

@@ -57,5 +57,11 @@
     margin: 1rem;
     border-radius: 50%;
     transform: scale(3);
+    color: blue;
 }
+.callme_i:hover{
+    transform: scale(4);
+    color: rgb(74, 205, 159);
+    transition: 500ms ease;
+ }
 
